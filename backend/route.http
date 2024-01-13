@@ -1,0 +1,73 @@
+<!-- Sofia Dahlberg
+Mittuniversitet Sundsvall
+Webbutvecklingsprogrammet DT162G 
+2024-01-05 -->
+
+GET http://localhost:4000/store
+
+###
+POST http://localhost:4000/store
+Content-Type: application/json
+
+{
+  "storeName" : "Sandmackan",
+  "storeLocation" : "Sandvägen 8",
+  "storeZipcode" : 63223,
+  "storeCity" : "Göteborg",
+  "storeEmail" : "sandmackan@butik.se",
+  "storeNumber" : "070-000 00 00",
+   "_id": "123456789"
+}
+
+###
+GET http://localhost:4000/store/1
+
+###
+
+DELETE http://localhost:4000/store/123456789
+
+###
+
+PATCH http://localhost:4000/store/658dd8441dbbe6065fee718b
+Content-Type: application/json
+
+{
+  "storeName" : "New name"
+  
+}
+###
+
+GET http://localhost:4000/order/
+
+###
+
+POST http://localhost:4000/order/
+Content-Type: application/json
+
+{
+  "category": "Kaffe",
+  "type": "Frosted caramel 10st",
+  "quantity": 10,
+  "storeNameOrder": "Arnes Affär",
+  "price": 69,
+   "_id": "123456789"
+
+}
+
+###
+
+GET http://localhost:4000/order/11
+
+###
+
+PATCH http://localhost:4000/order/123456789
+Content-Type: application/json
+
+{
+  "category" : "Te"
+  
+}
+
+###
+
+DELETE http://localhost:4000/order/123456789
