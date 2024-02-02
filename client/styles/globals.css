@@ -29,6 +29,9 @@ Webbutvecklingsprogrammet DT162G
 .main {
     background-color: #FCF0DF;
 }
+html{
+    background-color: #FCF0DF;
+}
 
 li:first-child {
     border-left: none;
@@ -76,6 +79,9 @@ li:first-child {
 }
 
 @media only screen and (max-width: 600px) {
+    .ml-20 {
+        margin-left: 0%;
+    }
     .ulmenu {
         list-style: none;
         display: flex;
@@ -83,6 +89,10 @@ li:first-child {
         padding: 0;
         background-color: #000000;
         width: 100%;
+    }
+    .storeOrder {
+        width: 99%;
+        margin: 4% auto;
     }
 
     .menu {
@@ -97,8 +107,10 @@ li:first-child {
 
     .flex-grow {
         font-family: 'Josefin Sans', sans-serif;
-        width: 15em;
-        font-size: 1.3em;
+        width: 17em;
+        font-size: 1.2em;
+        text-align: left;
+        padding: 2%;
     }
 
     .border-4 {
@@ -591,10 +603,7 @@ li:first-child {
         font-size: 1.3em;
     }
 
-    .ml-20 {
-        margin-left: 5%;
-    }
-
+  
     /* navigering + hover för kategori kaffe och te*/
     .coffee {
         border-right: 1px solid #FCF0DF;
