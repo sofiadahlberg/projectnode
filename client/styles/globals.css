@@ -454,6 +454,22 @@ li:first-child {
         font-size: 0.9em;
     }
 
+    /*button + hover*/
+    .order {
+        background-color: #44281A;
+        padding: 4%;
+        width: 35%;
+        font-size: 1.4em;
+        border-radius: 12%;
+        font-family: 'Josefin Sans', sans-serif;
+        margin-top: 3%;
+    }
+
+    .order:hover {
+        background-color: #f58a54;
+        color: #000000;
+    }
+
     /*Headern i footer*/
     .h6class {
         font-family: 'Judson', sans-serif;
