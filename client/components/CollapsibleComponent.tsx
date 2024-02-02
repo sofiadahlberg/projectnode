@@ -70,7 +70,7 @@ const CollapsibleComponent = () => {
         },
         body: JSON.stringify(orderData),
       });
-      console.log("Data som skickades:", orderData);
+      
       //Om responsen blir rätt
       if (response.ok) {
         console.log("Beställning skickad!");

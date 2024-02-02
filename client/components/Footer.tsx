@@ -32,7 +32,7 @@ const Footer: React.FC = () => {
   const handleFormSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     try {
-      console.log("Form Data:", formData);
+     
       const response = await fetch("http://localhost:4000/store", {
         method: "POST",
         headers: {
