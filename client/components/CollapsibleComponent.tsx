@@ -297,7 +297,7 @@ const CollapsibleComponent = () => {
         onClick={toggleCollapse}
         className="button flex items-center justify-between m-0.1"
       >
-        <span className="flex-grow">Lägg till beställning till butik</span>
+        <span className="flex-grow">Lägg beställning till butik</span>
         <img src={imageSrc} alt="Pil" className="ml-20 w-10" />
       </button>
       {isOpen && <Category />}
